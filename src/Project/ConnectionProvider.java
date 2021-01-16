@@ -11,7 +11,7 @@ public class ConnectionProvider {
         try 
         {
             Class.forName("com.mysql.jdbc.Driver");
-            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/hostel?zeroDateTimeBehavior=CONVERT_TO_NULL","root","");
+            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/hostel","root","1234");
             return con;
         } 
         catch (Exception e) 

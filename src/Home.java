@@ -37,6 +37,8 @@ public class Home extends javax.swing.JFrame {
         jButton11 = new javax.swing.JButton();
         jButton12 = new javax.swing.JButton();
         jButton13 = new javax.swing.JButton();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -58,7 +60,7 @@ public class Home extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, 350, 60));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 120, 350, 50));
 
         jButton2.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/new student.png"))); // NOI18N
@@ -68,17 +70,17 @@ public class Home extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 190, 350, 60));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 210, 350, 50));
 
         jButton3.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Update & Delete Student.png"))); // NOI18N
-        jButton3.setText("Update & Delete Studnet");
+        jButton3.setText("Update & Delete Student");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 280, 350, 60));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 300, 350, 50));
 
         jButton4.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Fees.png"))); // NOI18N
@@ -88,7 +90,7 @@ public class Home extends javax.swing.JFrame {
                 jButton4ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 370, 350, 60));
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 390, 350, 50));
 
         jButton5.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/all student living.png"))); // NOI18N
@@ -98,7 +100,7 @@ public class Home extends javax.swing.JFrame {
                 jButton5ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 460, 350, 60));
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 480, 350, 50));
 
         jButton6.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Leaved students.png"))); // NOI18N
@@ -108,7 +110,7 @@ public class Home extends javax.swing.JFrame {
                 jButton6ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 550, 350, 60));
+        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 570, 350, 50));
 
         jButton7.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/new student.png"))); // NOI18N
@@ -118,7 +120,7 @@ public class Home extends javax.swing.JFrame {
                 jButton7ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 640, 350, 60));
+        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 660, 350, 50));
 
         jButton8.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Update & Delete Student.png"))); // NOI18N
@@ -128,7 +130,7 @@ public class Home extends javax.swing.JFrame {
                 jButton8ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 730, 350, 60));
+        getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 750, 350, 50));
 
         jButton9.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Fees.png"))); // NOI18N
@@ -138,7 +140,7 @@ public class Home extends javax.swing.JFrame {
                 jButton9ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 820, 350, 60));
+        getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 840, 350, 50));
 
         jButton10.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/all student living.png"))); // NOI18N
@@ -148,7 +150,7 @@ public class Home extends javax.swing.JFrame {
                 jButton10ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 910, 350, 60));
+        getContentPane().add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 930, 350, 50));
 
         jButton11.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Leaved students.png"))); // NOI18N
@@ -158,7 +160,7 @@ public class Home extends javax.swing.JFrame {
                 jButton11ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 1000, 350, 60));
+        getContentPane().add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 1010, 350, 50));
 
         jButton12.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/logout.png"))); // NOI18N
@@ -168,7 +170,7 @@ public class Home extends javax.swing.JFrame {
                 jButton12ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(1550, 30, 150, 80));
+        getContentPane().add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(1550, 20, 150, 80));
 
         jButton13.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Close.png"))); // NOI18N
@@ -178,10 +180,19 @@ public class Home extends javax.swing.JFrame {
                 jButton13ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(1730, 30, 140, 80));
+        getContentPane().add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(1740, 20, 140, 80));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Yellow.png"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1920, 1080));
+        jLabel12.setFont(new java.awt.Font("Algerian", 1, 60)); // NOI18N
+        jLabel12.setText("HOstel managment system");
+        jLabel12.setToolTipText("");
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 40, 880, 60));
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Yellow.png"))); // NOI18N
+        jLabel2.setText("jLabel2");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jLabel1.setText("jLabel1");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 360, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -197,6 +208,7 @@ public class Home extends javax.swing.JFrame {
         // TODO add your handling code here:
         jButton6.setForeground(Color.red);
         jButton6.setBackground(new Color(255,255,255)); 
+        new LeavedStudents().setVisible(true);
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void formWindowGainedFocus(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowGainedFocus
@@ -236,57 +248,64 @@ public class Home extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         jButton1.setForeground(Color.red);
-        jButton1.setBackground(new Color(255,255,255));  
+        jButton1.setBackground(Color.white);  
         new ManageRoom().setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         jButton2.setForeground(Color.red);
-        jButton2.setBackground(new Color(255,255,255));
+        jButton2.setBackground(Color.white);  
         new NewStudent().setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
         jButton4.setForeground(Color.red);
-        jButton4.setBackground(new Color(255,255,255));  
+        jButton4.setBackground(Color.white);  
+        new StudentFees().setVisible(true);
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
         jButton5.setForeground(Color.red);
-        jButton5.setBackground(new Color(255,255,255)); 
+        jButton5.setBackground(Color.white);  
+        new AllStudentsLiving().setVisible(true);
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         // TODO add your handling code here:
         jButton7.setForeground(Color.red);
-        jButton7.setBackground(new Color(255,255,255)); 
+        jButton7.setBackground(Color.white);  
+        new NewEmployee().setVisible(true);
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         // TODO add your handling code here:
         jButton8.setForeground(Color.red);
-        jButton8.setBackground(new Color(255,255,255)); 
+        jButton8.setBackground(Color.white);  
+        new UpdateDeleteEmployees().setVisible(true);
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
         // TODO add your handling code here:
         jButton9.setForeground(Color.red);
-        jButton9.setBackground(new Color(255,255,255)); 
+        jButton9.setBackground(Color.white);  
+        new EmployeePayment().setVisible(true);
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
         // TODO add your handling code here:
         jButton10.setForeground(Color.red);
-        jButton10.setBackground(new Color(255,255,255)); 
+        jButton10.setBackground(Color.white);  
+        new AllEmployeesWorking().setVisible(true);
     }//GEN-LAST:event_jButton10ActionPerformed
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
         // TODO add your handling code here:
         jButton11.setForeground(Color.red);
-        jButton11.setBackground(new Color(255,255,255)); 
+        jButton11.setBackground(Color.white);   
+        new LeavedEmployees().setVisible(true);
     }//GEN-LAST:event_jButton11ActionPerformed
 
     /**
@@ -339,5 +358,7 @@ public class Home extends javax.swing.JFrame {
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 }
